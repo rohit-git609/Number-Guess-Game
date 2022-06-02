@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess Game</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Section 1 
+    button : Generate Number
+    
+    -->
+    <div id="section1" class="container text-center mt-5">
+        <button onclick="generate_num_btn_click()" class="btn btn-warning btn-lg">Generate Number</button>
+    </div>
+
+    <!-- Section 2
+    img
+    Guess Number
+    msg
+    input field 
+    check
+    
+    -->
+    <div id="section2" class="container">
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <!-- img -->
+                <img src="https://c.tenor.com/cR8ujewMmSgAAAAC/question-lignon.gif" alt="">
+                <p class="text-danger mt-3">Guess the number between 1 to 6**</p>
+                <div class="form-group w-25 mx-auto">
+                    <input id="field" class="form-control mx-auto" type="text" placeholder="Enter Number">
+                </div>
+                <button onclick="check_number()" class="btn btn-primary btn-sm mt-4">Check</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Section 3
+    
+        image
+        heading : generating Number!!
+    -->
+<div id="section3" class="container text-center">
+    <img
+    class="img-fluid"
+    style="width: 250px;"
+    src="https://thumbs.gfycat.com/SecondTartCygnet-size_restricted.gif" 
+    alt="">
+    <h2 style="color:rgb(0, 0, 0)">Generating Number..</h2>
+</div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
